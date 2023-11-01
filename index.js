@@ -1,9 +1,9 @@
 import express from "express";
 import cors from "cors";
-import data from "./routes/data.routes.js";
-import img from "./routes/img.routes.js";
-import log from "./routes/login.js";
-import comment from "./routes/comentario.js";
+import data from "./server/routes/data.routes.js";
+import img from "./server/routes/img.routes.js";
+import log from "./server/routes/login.js";
+import comment from "./server/routes/comentario.js";
 
 const app = express();
 
